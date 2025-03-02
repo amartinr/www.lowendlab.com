@@ -1,0 +1,54 @@
+baseURL: https://www.lowendlab.com
+languageCode: es-es
+defaultContentLanguage: es
+theme: PaperMod
+title: LowEndLab
+
+permalinks:
+  page:
+    posts: /posts/:year/:month/:day/:slug
+  section:
+    posts: /posts/
+    about: /about/
+
+params:
+  label:
+    text: ""
+  disableSpecial1stPost: false
+  hideMeta: false
+  showBreadCrumbs: true
+  enableEmoji: true
+  defaultTheme: auto
+  showPostNavLinks: true
+  dateFormat: 2 de January, 2006
+  mainSections:
+    - posts
+  #social: true
+  #homeInfoParams:
+  #  title: LowEndLab
+  #  content: Ideas varias y notas sobre tecnología
+
+  hideFooter: false
+  showCodeCopyButtons: true
+  footer:
+    hideCopyright: false
+    hidePrivacy: true
+    hideTerms: false
+    hideAbout: true
+    #text: ""
+
+menu:
+  main:
+    #- identifier: publicaciones
+    #  name: Publicaciones
+    #  url: posts
+    #  weight: 5
+    #- identifier: apps
+    #  name: Aplicaciones
+    #  url: apps
+    #  weight: 10
+    - identifier: about
+      name: Acerca de
+      url: about
+      weight: 15
+
