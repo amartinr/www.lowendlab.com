@@ -32,7 +32,7 @@ params:
   showCodeCopyButtons: true
   footer:
     hideCopyright: false
-    hidePrivacy: true
+    hidePrivacy: false
     hideTerms: false
     hideAbout: true
     #text: ""
