@@ -1,6 +1,6 @@
 ---
 title: 403 Forbidden
-layout: 403
-url: /403.html
+layout: 403_aticas
+url: /403_aticas.html
 noindex: true
 ---

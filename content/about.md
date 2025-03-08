@@ -7,3 +7,4 @@ disableAnchoredHeadings: true
 draft: true
 showBreadCrumbs: true
 ---
+Ideas varias y notas sobre tecnología.
